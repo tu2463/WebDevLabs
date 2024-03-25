@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Cheyu Tu">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Cheyu Tu professional website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheyu Tu</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><script defer src = "../static/script.js"></script>
+    <script defer src = "../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+
+  <body onload = "addYear()">
+    <header>
+        <h1 id = "webname">Cheyu Tu</h1>
+        <nav id="myTopnav" class="topnav">
+          <a href = "index.html">Home</a>
+          <a href = "cv.html" class = "active">CV</a>
+          <a href = "contact.html">Contact Me</a>
+          <a href = "fun.html">For Fun</a>
+          <a href="javascript:void(0);" class="icon" >
+            <i class="fa fa-bars" onclick="activeNav()"></i>
+          </a>
+        </nav>
+    </header>
+
+    <div class = "main">
+      <h2>Curriculum Vitae</h2>
+      <table border = "1">
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><strong>Carnegie Mellon University</strong></td>
+          <td><ul>
+              <li>Major in Information Systems</li>
+              <li>Minors in Human-Computer Interaction and Animation & Special Effects</li>
+              <li>2022-2026</li>
+          </ul></td>
+        </tr>
+        <tr>
+          <td><strong>CMU All University Orchestra</strong></td>
+          <td><ul>
+            <li>Communications Chair and Cello Player</li>
+            <li>Analyzed follower data using Meta Business Suite, researched similar organizations’ promotion strategies, and
+                collaborated with campus marketing groups to adjust social media content and improve the orchestra’s presence.</li>
+            <li>2022-current</li>
+          </ul></td>
+        </tr>
+        <tr>
+          <td><strong>Beijing National Day School</strong></td>
+          <td><ul>
+            <li>Relevant Courses: AP Calculus BC, AP Statistics, AP Micro & Macroeconomics, AP Music Theory</li>
+            <li>2019-2022</li>
+          </ul></td>
+        </tr>
+      </table>
+
+    <!-- _blank: Load the URL into a new browsing context. This is usually a tab, but users can configure browsers to use new windows instead. -->
+    <a class = "normal-text" href = "../static/doc/Resume_Cheyu Tu.pdf" target = "_blank">My Resume. pdf version</a> 
+
+  </div> <!-- end of main -->
+
+  <footer>
+    <p id = "copyYear">Cheyu Tu &copy;</p>
+  </footer>
+  </body>
+</html>
